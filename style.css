@@ -1,0 +1,115 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2c2c54;
+}
+
+div > button {
+    align-items: center;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    background-color: #7676c5;
+    padding: 10px 15px; 
+    border-radius: 20px;  
+}
+
+div > button:hover {
+    background-color: rgba(118,118,197,0.8);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    font-family: helvetica;
+    font-style: oblique;
+    text-align: center; 
+    color: white
+}
+
+.todoList-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 30px;
+    grid-template-rows: minmax(20px, auto) repeat( 5, 50px);
+    padding-top: 5px;
+}
+
+.deleteButton {
+    align-items: center;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    background-color: #7676c5;
+    padding: 7px; 
+    border-radius: 20px; 
+    margin-left: 43px; 
+}
+
+.deleteButton:hover {
+    color: rgb(23, 78, 44);
+}
+
+#addTodoTextInput {
+    align-items: center;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #565677;
+
+}
+#changeTodoPositionInput {
+    align-items: center;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #565677;
+}
+#changeTodoTextInput {
+    align-items: center;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #565677;
+}
+#toggleCompletedPositionInput {
+    align-items: center;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #565677;
+}
+
+li {
+    font-family: helvetica;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    width: 500px;
+    background-color: #565677;
+    list-style-type: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,5 @@
+This is a Todo List App that you can use to add a todo; change a todo; delete a todo; and mark todos that have been completed.
+- To add a todo, simply type what you want into the space provided and click the Add button. There's no limit to how many characters you can use and you can use symbols too.
+- To change a todo: in the first box, type in the number the todo takes in the list (start counting from zero) in the first box. Type in what you want to change it to in the second box. click Change Todo.
+- To delete a todo: scroll down to where the list is displayed and click the delete button next to the todo you want to delete.
+- To mark a completed todo: go to the box next to the toggle completed button and type in the number the todo takes up in the list. Don't forget to start your counting from zero. Click the toggle completed button and an 'x' will be shown in the open parentheses by the left of the todo. It'll change from ( ) to (x).     
